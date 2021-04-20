@@ -8,15 +8,16 @@
 <h2>Htmlでライトを作成する</h2>
 
 <p>ライトをつけたり消したりしてみます</p>
+<p id="demo">Java scriptでイメージのsrcを変わります。</p>	
 
-<p>Java scriptでイメージのsrcを変わります。</p>
+
 
 <button onclick="document.getElementById('myImage').src='./images/pic_bulbon.gif'">ON</button>
 
 <img id="myImage" src="./images/pic_bulboff.gif" style="width:100px">
 
-<button onclick="document.getElementById('myImage').src='./images/pic_bulboff.gif'">OFF</button>
+<button onclick="document.getElementById('myImage').src='./images/pic_bulboff.gif'">OFF</button><br/>
 
-
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">サイズを変わる</button>
 </body>
 </html>
